@@ -1,5 +1,6 @@
 package exercise;
 
+import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -14,7 +15,10 @@ public class Second {
 //        six();
 //        seven();
 //        eigth();
-        nine();
+//        nine();
+//        ten();
+        eleven();
+
     }
 
 
@@ -84,7 +88,7 @@ public class Second {
         int[] s = new int[3];
         for (int i = 0; i <= 2; i++) {
             int size = scanner.nextInt();
-            s[i]=size;
+            s[i] = size;
         }
         System.out.println(s.length);
         Arrays.sort(s);
@@ -92,29 +96,59 @@ public class Second {
         System.out.println("Medium = " + s[1]);
         System.out.println("Maximum = " + s[2]);
     }
+
     public static void eigth() {
         int[] s = new int[3];
         for (int i = 0; i <= 2; i++) {
             int size = scanner.nextInt();
-            s[i]=size;
+            s[i] = size;
         }
         System.out.println(s.length);
         System.out.println(Arrays.stream(s).max());
         System.out.println(Arrays.stream(s).min());
     }
+
     public static void nine() {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         System.out.println(a);
         System.out.println(b);
-        b=a-b;
-        a=a-b;
-        b=b+a;
+        b = a - b;
+        a = a - b;
+        b = b + a;
         System.out.println(a);
         System.out.println(b);
     }
-    public static void ten() {
 
+    public static void ten() {
+        DecimalFormat df2 = new DecimalFormat("#.##");
+        int a = scanner.nextInt();
+        double b = (Double.valueOf(a) * 5) / 100;
+        System.out.println(a);
+        System.out.println(df2.format(b));
+        double c = Double.valueOf(a) - b;
+        System.out.println(c);
     }
+
+    public static void eleven() {
+        int[] arr = {4, 3, 4, 77, 5, 9, 77, 9, 5, 4, 3, 9};
+
+        for (int i : arr) {
+            int j = 0;
+            for (int k : arr) {
+                if (i == k) {
+                    j++;
+                }
+            }
+            if (j == 3) {
+                System.out.println("the odd number is " + i);
+
+            }
+
+
+        }
+    }
+
 }
+
 
