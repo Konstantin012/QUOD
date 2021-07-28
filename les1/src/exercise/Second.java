@@ -17,8 +17,9 @@ public class Second {
 //        eigth();
 //        nine();
 //        ten();
-        eleven();
-
+//        eleven();
+//        twelth();
+        ten_1();
     }
 
 
@@ -148,7 +149,35 @@ public class Second {
 
         }
     }
+    public static void twelth() {
+        int a = scanner.nextInt();
+        var aa =Integer.parseInt(Integer.toString(a).substring(0,1));
+        var aaa =Integer.parseInt(Integer.toString(a).substring(1,2));
+        System.out.println(aa+aaa);
 
+
+
+    }
+    public static void ten_1() {
+        int a = scanner.nextInt();
+        int len = Integer.toString(a).length();
+        String str = Integer.toString(a);
+        int [] arr = new int[len];
+        for (int i=0;i<len;i++){
+            arr[i]=Integer.parseInt(str.substring(i,i+1));
+        }
+        System.out.println(Arrays.stream(arr).sum());
+
+
+
+    }
+//16)**
+//    Палиндром - число, одинаково читающееся в обоих направлениях, напр. 5123215.
+//    Наибольший палиндром, который может быть получен произведением 2-ух двузначных чисел является:
+//            9009 = 91*99
+//
+//    a) Реализовать алгоритм, который находит наибольший палиндром, являющийся произведением 2-ух трехзначных чисел.
+//            b) Обобщить алгоритм, который может находить наибольший палиндром, являющийся произведением двух n-значных чисел.
 }
 
 
