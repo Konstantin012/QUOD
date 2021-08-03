@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8ec6956-8499-4a81-80cd-5eb920fe4ac5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quod-framework/src/main/java/quod/web/framework/test/BaseTest.java" afterDir="false" />
+    <list default="true" id="a8ec6956-8499-4a81-80cd-5eb920fe4ac5" name="Default Changelist" comment="Base Test &#10;and &#10;Base Page">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quod-tests/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quod-tests/src/main/resources/selenium.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +35,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,6 +49,14 @@
       <option name="presentableId" value="Default" />
       <updated>1628017941246</updated>
     </task>
+    <task id="LOCAL-00001" summary="Base Test &#10;and &#10;Base Page">
+      <created>1628019039092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628019039092</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -53,5 +69,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Base Test &#10;and &#10;Base Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base Test &#10;and &#10;Base Page" />
   </component>
 </project>
