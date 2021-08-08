@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcfceaa-dd1b-4770-80bb-11190aba94b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/page/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/test/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tests/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/suites/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="fbcfceaa-dd1b-4770-80bb-11190aba94b5" name="Default Changelist" comment="fuck started">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quod-framework/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quod-framework/src/main/java/quod/web/framework/page/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quod-framework/src/main/java/quod/web/framework/test/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quod-tests/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quod-tests/src/main/resources/selenium.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +81,14 @@
       <option name="presentableId" value="Default" />
       <updated>1628361729816</updated>
     </task>
+    <task id="LOCAL-00001" summary="fuck started">
+      <created>1628363342161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628363342161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,5 +101,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fuck started" />
+    <option name="LAST_COMMIT_MESSAGE" value="fuck started" />
   </component>
 </project>
