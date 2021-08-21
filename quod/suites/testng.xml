@@ -4,7 +4,7 @@
 <suite name="SampleSuite">
     <test name="SampleTest">
         <classes>
-            <class name="com.tests.FirstTest" />
+            <class name="FirstTest" />
         </classes>
     </test>
 

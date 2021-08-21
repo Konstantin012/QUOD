@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbcfceaa-dd1b-4770-80bb-11190aba94b5" name="Default Changelist" comment="fuck started">
+      <change afterPath="$PROJECT_DIR$/../.idea/QUOD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenDemo2/mavenDemo2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quod.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pages/homepage/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pages/homepage/LogInSelectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pages/mainpage/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pages/mainpage/MainPageSelectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenDemo2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenDemo2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mavenDemo2/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenDemo2/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenDemo2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenDemo2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mavenDemo2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenDemo2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenDemo2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mavenDemo2/target/mavenDemo2-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenDemo2/target/mavenDemo2-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mavenDemo2/target/mvn-repo/org/example/mavenDemo2/1.0-SNAPSHOT/maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenDemo2/target/mvn-repo/org/example/mavenDemo2/1.0-SNAPSHOT/maven-metadata.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mavenDemo2/target/mvn-repo/org/example/mavenDemo2/1.0-SNAPSHOT/maven-metadata.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenDemo2/target/mvn-repo/org/example/mavenDemo2/1.0-SNAPSHOT/maven-metadata.xml.md5" afterDir="false" />
@@ -14,13 +26,22 @@
       <change beforePath="$PROJECT_DIR$/../mavenDemo2/target/mvn-repo/org/example/mavenDemo2/maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenDemo2/target/mvn-repo/org/example/mavenDemo2/maven-metadata.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mavenDemo2/target/mvn-repo/org/example/mavenDemo2/maven-metadata.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenDemo2/target/mvn-repo/org/example/mavenDemo2/maven-metadata.xml.md5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mavenDemo2/target/mvn-repo/org/example/mavenDemo2/maven-metadata.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenDemo2/target/mvn-repo/org/example/mavenDemo2/maven-metadata.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/page/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suites/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/suites/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/framework/page/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/framework/test/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tests/FirstTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,6 +59,11 @@
         <option name="outputLevel" value="DEBUG" />
       </MavenGeneralSettings>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="test-suite" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1wPYXPF8gPSAXgofLwnBnYVVNap" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -49,14 +75,40 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../qa-ja-07-simple" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.32659408" />
+    <property name="settings.editor.selected.configurable" value="testing.instrumented.configuration" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Own\QUOD\quod" />
+    </key>
   </component>
   <component name="RunManager" selected="Maven.Run First Test">
     <configuration name="Run First Test" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-ea" />
+          </MavenRunnerSettings>
+        </option>
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
             <option name="profiles">
@@ -79,6 +131,24 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="FirstTest.TestMethod (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.FirstTest" />
+      <option name="METHOD_NAME" value="TestMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstTest.TestMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="quod2" />
       <extension name="coverage">
@@ -100,9 +170,11 @@
     <list>
       <item itemvalue="Maven.Run First Test" />
       <item itemvalue="TestNG.FirstTest.TestMethod" />
+      <item itemvalue="TestNG.FirstTest.TestMethod (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FirstTest.TestMethod (1)" />
         <item itemvalue="TestNG.FirstTest.TestMethod" />
       </list>
     </recent_temporary>
