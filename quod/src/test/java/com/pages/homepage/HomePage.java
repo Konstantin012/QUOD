@@ -31,7 +31,8 @@ public class HomePage extends BasePage {
 
     public static HomePage openStartWindow(WebDriver driver, String baseUrl){
         driver.get(baseUrl);
-        driver.manage().window().maximize();
+//        driver.manage().window().maximize();
+        driver.manage().window();
         return new HomePage(driver);
     }
 
@@ -40,8 +41,8 @@ public class HomePage extends BasePage {
         inputTextField(loginInput ,userName);
         inputTextField(passwordInput ,password);
         loginButton.click();
-        waitingUntilPresent(By.xpath(".//*[text()='General']"),1);
-        return new MainPage();
+        waitingUntilPresent(By.xpath(".//*[text()='General']"),10);
+        return new MainPage(driver);
     }
 
 

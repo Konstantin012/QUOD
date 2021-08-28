@@ -107,5 +107,18 @@ public class BasePage {
         }
     }
 
+    protected boolean isDisplayed(WebElement element){
+        return element.isDisplayed();
+    }
+
+    protected void clickIfVisible(WebElement element, WebElement elementParent){
+        waitingElementVisible(elementParent,5);
+        if (element.isDisplayed()){
+            element.click();
+        }
+        else
+            elementParent.click();
+
+    }
 
 }

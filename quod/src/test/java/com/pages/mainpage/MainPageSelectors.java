@@ -1,8 +1,10 @@
 package com.pages.mainpage;
 
 public class MainPageSelectors {
-    public static final String LOGIN_INPUT = "input-email";
-    public static final String PASSWORD_INPUT= "input-password";
-    public static final String LOGIN_BUTTON = "//button[text()=' Login ']";
+    public static final String Refere = "//*[@tag=\"menu-sidebar\"]//a[@title=\"{tab_title}\"]";
+    public static final String REFERENCE_DATA = "//*[text() ='Reference Data']";
+    public static final String VENUES = "//*[text() ='Venues']";
+
+
 
 }
